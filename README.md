@@ -14,23 +14,34 @@
 * [07 - VI - Callbacks](./07-JS-VI)
 * [08 - HTML](./08-HTML)
 * [09 - CSS](./09-CSS-Positioning)
-* Henry Challenge => [Inscribite acá para rendir](https://airtable.com/shrjhdL2GfsusMZ05)
+* Henry Challenge => [Inscribite acá para rendir](https://challenge.prep.soyhenry.com/)
 
 ## Conceptos:
 
 * [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
 
-## Proceso de subida de homeworks
+## Clases de Repaso (Henry Heroes)
 
-__IMPORTANTE:__ Luego de completar cada una de las homeworks del día deberán ejecutar el siguiente comando para subir sus trabajos a sus repositorios (Deben estar posicionados sobre la carpeta principal `Curso.Prep.Henry` para que funcione y haber corrido previamente `npm install`:
+Estudiantes mas avanzados de la carrera resuelven los ejercicios en vivo en formato webinar.
+[Acá podes](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwV-pEgWuxqI1B3pdVI0lbeqPB0a6LHPk6-DQlifDdX9Rue_Ul4YTOxoOg-hhofv6U0f32OoXOU2Wf/pubhtml) ver el calendario de las clases y las grabaciones.
 
-Para la homework número 1 no es necesario ya que su trabajo se realiza por fuera de este repositorio
+## Homeworks
 
-```bash
-  node submit.js {numeroHomework}
+__IMPORTANTE:__ Para ejecutar los tests de cada homework tenes que pararte en la carpeta donde clonaste tu repo (es decir la carpeta donde está este `README.md`) y ejecutar el siguiente comando:
+
+`npm install`
+
+Esto instalará todas las dependencias necesarias (lo tenés que hacer una sóla vez), una vez terminado y cada vez que quieras ver cuantos tests pasaste ejecutá:
+
+```
+npm test {nombre del homework}.test.js
 ```
 
-*En donde dice {numeroHomework} deben reemplazarlo simplemente por el número de homework correspondiente, por ejemplo `node submit.js 2`*
+Por ejemplo, para ejecutar los tests del homework 02, ejecutar: `npm test JSII.test.js`
+el del homework 01: `npm test JSI.test.js`
+y así.
+
+> No todos los homeworks tiene tests, está detallado en la descripción de cada uno.
 
 # La Carrera
 
